@@ -16,7 +16,7 @@ Birds give invaluable data on the overall health of our planet's ecosystem. By o
 
 Current phone app based amateur birder detection is reliant on a person's observations. Our solution is a static camera continuously observing a birdfeeder for autonomous detection and classification of bird species, giving a more robust coverage of a single area.
 
-#### Technical Approach 
+#### Technical Approach
 
 Using the PyTorch framework, YOLO11Large will act as an initial detection model for birds in the image, and its bounding box output will be piped into a custom specialist model that will classify the bird species.
 
@@ -36,6 +36,7 @@ Custom trained model dataset sources:​
 #### Success Metrics
 
 Detection accuracy: 90% of detections, 80% of classifications
+
 Detection speed: 150ms initial detection for realtime video stream constraint
 
 #### Milestones
